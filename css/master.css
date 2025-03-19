@@ -1,0 +1,94 @@
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;background-color: #d7d7d7;
+    color: black;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #4CAF50, #2196F3);
+    color: white;
+}
+
+.hero-text h2 span {
+    color: yellow;
+}
+
+.btn {
+    background-color: #ff9800;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* Sections */
+section {
+    padding: 50px;
+}
+
+/* Projects */
+.projects-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project {
+    background-color: #ddd;
+    padding: 20px;
+    width: 200px;
+}
+
+/* Contact */
+footer {
+    background-color: #222;
+    color: white;
+    padding: 10px;
+}
+
+.social-txt a {
+    color: black;
+    text-decoration: none;
+}
+
+.social-txt a:hover {
+    text-decoration:underline;
+}
+.about-me-ul li {
+    list-style: none;
+}
